@@ -12,7 +12,7 @@ const config = {
     rules: [
       {
         test: /\.jsx?$/,
-        use: "bable-loader",
+        use: "babel-loader",
         exclude: /node_modules/,
       },
       {
